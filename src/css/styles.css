@@ -1,0 +1,12 @@
+.imgLogo {
+    width: 100px;
+}
+
+.imgLogo2 {
+    width: 200px;
+}
+
+.textHover:hover {
+    color: rgb(47, 47, 178);
+    cursor: pointer;
+}
