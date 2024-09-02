@@ -10,3 +10,31 @@
     color: rgb(47, 47, 178);
     cursor: pointer;
 }
+
+#gamingRed {
+    background-image: url('../img/gaming.png');
+}
+
+#officeRed {
+    background-image: url('../img/oficina.png');
+}
+
+#ordenaRed {
+    background-image: url('../img/ordenador.png');
+}
+
+#compoRed {
+    background-image: url('../img/componentes.png');
+}
+
+.size {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 300px;
+    height: 300px;   
+}
+
+.sliderW {
+    width: 800px;
+}
