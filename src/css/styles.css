@@ -38,3 +38,23 @@
 .sliderW {
     width: 800px;
 }
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #2cb1ff!important;
+}
+
+.separTop {
+    margin-top: 100px;
+}
+
+.separarBot {
+    margin-bottom: 200px;
+}
+  
+  
+  
