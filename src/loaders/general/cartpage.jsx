@@ -5,7 +5,6 @@ const CartPage = () => {
     const [cart, setCart] = useState([]);
 
     useEffect(() => {
-        // Obtener los productos del localStorage
         const storedCart = JSON.parse(localStorage.getItem('cart')) || [];
         setCart(storedCart);
     }, []);
