@@ -18,7 +18,7 @@ function Carousels() {
 
   return (
     <div className="container mb-5 mt-5">
-        <div className=" separTop">
+        <div className="mb-5 separTop">
           <h4>Productos escogidos por nuestros profesionales</h4>
         </div>
       <div className="row g-4 justify-content-center"> 
@@ -31,8 +31,8 @@ function Carousels() {
                 <img src={d.img} className="img-fluid w-50" alt={d.name} />
               </div>
               <div className="card-body text-center"> 
-                <p className="card-title">{d.name}</p>
-                <p className="card-text">{d.price}</p>    
+                <p className="card-title">{d.name + " " + d.compo}</p>
+                <p className="card-text">{d.price + "€"}</p>    
               </div> 
             </div>
           </div>
@@ -47,22 +47,23 @@ const data1 = [
     {
         img: '/img/carousel/portatil1.png',
         name: 'Asus Rog Strix',
-        price: '799€',
+        compo: 'RTX 4060 8GB 32 GB RAM 1TB',
+        price: '799',
     },
     {
         img: '/img/carousel/portatil1.png',
         name: 'Asus Rog Strix2',
-        price: '799€',
+        price: '799',
     },
     {
         img: '/img/carousel/portatil1.png',
         name: 'Asus Rog Strix3',
-        price: '799€',
+        price: '799',
     },
     {
         img: '/img/carousel/portatil1.png',
         name: 'Asus Rog Strix4',
-        price: '799€',
+        price: '799',
     },
 ]
 

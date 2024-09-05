@@ -11,7 +11,8 @@ function Navbar() {
         {id:'gamL', urlPage:'../subpaginas/gaming.html'},
         {id:'ofiL', urlPage:'../subpaginas/oficina.html'},
         {id:'comL', urlPage:'../subpaginas/componentes.html'},
-        {id:'ordL', urlPage:'../subpaginas/ordenadores.html'}
+        {id:'ordL', urlPage:'../subpaginas/ordenadores.html'},
+        {id:'cestL', urlPage:'../subpaginas/carrito.html'}
     ];
 
     React.useEffect(() => {
@@ -38,6 +39,7 @@ function Navbar() {
                         <li><button className="p-3 bg-white border-0 textHover" id="ofiL">Oficina</button></li>
                         <li><button className="p-3 bg-white border-0 textHover" id="ordL">Ordenadores</button></li>
                         <li><button className="p-3 bg-white border-0 textHover" id="comL">Componentes</button></li>
+                        <li><button className="p-3 bg-white border-0 textHover" id="cestL">Cesta</button></li>
                     </ul>
 
                 </ul>

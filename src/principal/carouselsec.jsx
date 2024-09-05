@@ -19,7 +19,7 @@ function Carousels() {
   return (
     <div className="container  mt-5 separarBot">
       <div className=' mb-5 separTop'>
-          <h4>Productos escogidos por nuestros profesionales</h4>
+          <h4>Lo último en tecnologia</h4>
       </div>
       <div className="row g-4 justify-content-center"> 
       <Slider {...settings}>
