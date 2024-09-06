@@ -31,19 +31,34 @@ function Ofiprod() {
 
 const ofidata = [
     {
-        img: '',
-        name: 'Oficina1',
-        price: ''
+        img: '  /img/imgventa/oficina/raton1.webp',
+        name: 'Raton Logitech Ergonomico',
+        price: '44'
     },
     {
-        img: '',
-        name: 'Oficina2',
-        price: '400'
+        img: '/img/imgventa/oficina/raton2.png',
+        name: 'Raton Logitech MX',
+        price: '39'
     },
     {
-        img: '',
-        name: 'Oficina3',
-        price: ''
+        img: '/img/imgventa/oficina/soporteport.png',
+        name: 'Soporte para portatiles',
+        price: '14'
+    },
+    {
+      img: '/img/imgventa/oficina/tecladoergo.webp',
+      name: 'Teclado ergonomico Logitech',
+      price: '29.99'
+    },
+    {
+      img: '/img/imgventa/oficina/monitor.webp',
+      name: 'Monitor BenQ',
+      price: '109'
+    },
+    {
+      img: '/img/imgventa/oficina/monitorcurvohp.avif',
+      name: 'Monitor Curvo HP',
+      price: '230'
     },
 ]
 
