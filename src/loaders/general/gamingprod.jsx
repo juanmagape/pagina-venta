@@ -5,7 +5,7 @@ function Gamingprod() {
   return (
     <div className='container'> 
       <div>
-        <h3 className='separTop mb-5'>Descubre nuestros productos de oficina</h3>
+        <h3 className='separTop mb-5'>Descubre nuestros productos de gaming</h3>
       </div>
         <div className='row g-4 justify-content-center separarBot'>
         {ofidata.map((od) => (
@@ -31,32 +31,32 @@ function Gamingprod() {
 
 const ofidata = [
     {
-        img: '  /img/imgventa/oficina/raton1.webp',
+        img: '  /img/imgventa/gaming/raton1.png',
         name: 'Raton Logitech Ergonomico',
         price: '44'
     },
     {
-        img: '/img/imgventa/oficina/raton2.png',
+        img: '/img/imgventa/gaming/raton2.webp',
         name: 'Raton Logitech MX',
         price: '39'
     },
     {
-        img: '/img/imgventa/oficina/soporteport.png',
+        img: '/img/imgventa/gaming/cascos1.png',
         name: 'Soporte para portatiles',
         price: '14'
     },
     {
-      img: '/img/imgventa/oficina/tecladoergo.webp',
+      img: '/img/imgventa/gaming/cascos2.webp',
       name: 'Teclado ergonomico Logitech',
       price: '29.99'
     },
     {
-      img: '/img/imgventa/oficina/monitor.webp',
+      img: '/img/imgventa/gaming/teclado1.png',
       name: 'Monitor BenQ',
       price: '109'
     },
     {
-      img: '/img/imgventa/oficina/monitorcurvohp.avif',
+      img: '/img/imgventa/gaming/teclado2.webp',
       name: 'Monitor Curvo HP',
       price: '230'
     },
