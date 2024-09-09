@@ -32,33 +32,33 @@ function Gamingprod() {
 const ofidata = [
     {
         img: '  /img/imgventa/gaming/raton1.png',
-        name: 'Raton Logitech Ergonomico',
+        name: 'Raton Krom Gaming',
         price: '44'
     },
     {
         img: '/img/imgventa/gaming/raton2.webp',
-        name: 'Raton Logitech MX',
-        price: '39'
+        name: 'Raton Logitech G Pro',
+        price: '89'
     },
     {
         img: '/img/imgventa/gaming/cascos1.png',
-        name: 'Soporte para portatiles',
-        price: '14'
+        name: 'HyperX Cloud II',
+        price: '140'
     },
     {
       img: '/img/imgventa/gaming/cascos2.webp',
-      name: 'Teclado ergonomico Logitech',
-      price: '29.99'
+      name: 'Cascos NewSkill',
+      price: '49'
     },
     {
       img: '/img/imgventa/gaming/teclado1.png',
-      name: 'Monitor BenQ',
-      price: '109'
+      name: 'Teclado Mars Gaming',
+      price: '18'
     },
     {
       img: '/img/imgventa/gaming/teclado2.webp',
-      name: 'Monitor Curvo HP',
-      price: '230'
+      name: 'Teclado Logitech',
+      price: '65'
     },
 ]
 
